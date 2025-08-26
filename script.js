@@ -42,6 +42,6 @@ const events=
 
 generate_button.addEventListener("click", ()=>
     {
-        question_box.innerText =`${action[Math.floor(Math.random()*action.length)]} the roll of ${figures[Math.floor(Math.random()*figures.length)]} in ${events[Math.floor(Math.random()*events.length)]}`
+        question_box.innerText =`${action[Math.floor(Math.random()*action.length)]} the role of ${figures[Math.floor(Math.random()*figures.length)]} in ${events[Math.floor(Math.random()*events.length)]}`
     }
 );
